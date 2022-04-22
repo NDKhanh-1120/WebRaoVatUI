@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+hr {
+    margin-left: 0px;
+}
+img {
+    width: 100%;
+}
+.filter, #main, .container {
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F57229;
+}
+.filter {
+    height: 72px;
+}
+.filter #provinceslt, .filter option{
+    height: 52px;
+    width: 200px;
+    border-radius: 16px;
+    background-color: transparent;
+    border-color: #000;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+#main {
+    margin-top: 8px;
+}
+#main #navigation {
+    margin-left: 10px;
+}
+#main #navigation p{
+    display: inline-block;
+}
+#main #brand-list ul li {
+    width: 10%;
+    display:inline-block;
+}
+#main #brand-list ul li + li{
+    padding-left: 44px;
+}
+#main #brand-list ul li p {
+    text-align: center;
+}
+#main #brand-list ul li img {
+    width: 100%;
+    border-radius: 50%;
+}
+.container {
+    background-color: rgb(238, 238, 238);
+}
+.product-list {
+    list-style-type:none;
+    padding-left: 8px;
+    width: 800px;
+}
+.product-item {
+    width: 724px;
+    background: #fff;
+}
+.product-item .product-img  {
+    display: inline-block;
+}
+.product-item .product-img img{
+    width: 164px;
+    padding-left: 4px;
+}
+.product-item .product-info {
+    display: inline-block;
+    width:516px;
+    height:164px;
+    position: relative;
+    bottom: 10px;
+    padding-left: 12px;
+}
+.product-item .product-info .row-info {
+    padding-top: 54px;
+}
+.product-item .product-info .row-info button {
+    margin-left: 200px;
+}
+.product-item .product-info .row-info img{
+    width:10px;
+}
+
+.product-item .product-info .row-info p{
+    display: inline-block;
+}
+.page-devided {
+    display:flex;
+    background: #999;
+    height: 40px
+}
+.page-devided .page-number{
+    width:12px;
+    height:16px;
+    background: #F57229;
+    margin-top: 4px;
+    padding: 8px;
+    margin-left: 12px;
+    text-align: center;
+    color: #fff;
+    
+}
