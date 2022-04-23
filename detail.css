@@ -1,0 +1,11 @@
+.container-d{
+    display:flex;
+    width: 980px;
+    margin: 0 auto;
+}
+.container-d .main-detail {
+    flex-grow: 3;
+} 
+.container-d .right-info {
+    flex-grow: 2;
+}
