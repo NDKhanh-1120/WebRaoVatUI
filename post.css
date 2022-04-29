@@ -4,8 +4,10 @@
 }
 .content {
     margin-top: 42px;
-    display:flex;
     
+}
+.content form {
+    display: flex;
 }
 .content .col-right {
     width:600px;
