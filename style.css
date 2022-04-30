@@ -5,6 +5,12 @@
 
 a {
     text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 body {
     background-image: url(/bgw2.jpg);
@@ -60,14 +66,13 @@ header #search button {
     background-color: #eaa984;
     border-style: none;
 }
-nav ul {
+nav#nav ul {
     width: 980px;
-    list-style-type: none;
     margin: 0 auto;
     padding: 12px 24px;
     background-color: #f36523;
 }
-nav ul li {
+nav#nav ul li {
     font-size: 18px;
     display: inline;
     padding: 12px 24px;
@@ -174,3 +179,5 @@ footer p {
 h4 {
   padding:12px 0 0 16px;   
 }
+
+
