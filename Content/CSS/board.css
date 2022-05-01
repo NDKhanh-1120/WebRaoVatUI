@@ -13,13 +13,15 @@ tbody td {
 }
 table{
     border-collapse: collapse;
+    background-color: #fff;
 }
-table, th, td{
-    border: 1.5px solid #606060;
+th, td{
+    border: 1px solid #606060;
 }
 thead {
     height: 44px;
     border-radius: 8px;
+    color: #fc6006;
 }
 thead th {
     padding: 0 12px;

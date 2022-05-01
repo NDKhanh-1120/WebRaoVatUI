@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Content/CSS/modify-action.css">
     <link rel="stylesheet" href="/Content/CSS/board.css">
+    <link rel="stylesheet" href="modal-form.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +20,7 @@
             </ul>
         </nav>
         <div class="create-button">
-            <a href="button" class="button">Tạo mới</a>
+            <a href="#" class="button" id="create-bt">Tạo mới</a>
         </div>
         <div id="table">
             <table>
@@ -26,25 +29,56 @@
                     <th>Tên danh mục</th>
                     <th>Hình ảnh</th>
                     <th>Danh mục con</th>
-                    <th><p id="whitespaceforbutton"></p></th>
+                    <th><p id="whitespaceforbutton">Hoạt động</p></th>
                 </thead>
                 <tbody>
                     <tr>
-                        
                         <td>1</td>
                         <td>Đồ điện tử</td>
                         <td><img src="/Content/imgs/viettelpay.png" alt=""  style="display:block;margin:0 auto;"></td>
                         <td><a href="" class="button subcategory-button">Danh mục con</a></td>
                         <td class="modify-button">
-                            <ul>
-                                <li class="edit-button"><a href="" class="button">Sửa</a></li>
-                                <li class="delete-button"><a href="" class="button">Xóa</a></li>
-                            </ul>
+                                <ul>
+                                    <li class="edit-button"><button href="" class="button">Sửa</button></li>
+                                    <li class="delete-bt"><button href="" class="delete-button button">Xóa</button>
+                                        <div class="delete-confirm-cell">
+                                            <h4>Xác nhận xóa ?</h4>
+                                            <form action="" class="delete-confirm">
+                                                <input type="text" name="category-code" id="" class="hide">
+                                                <input type="submit" value="Xóa">
+                                                <input type="button" value="Hủy" class="dispose">
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
+
+    <div id="modal">
+        <div id="modal-form">
+            <form action="">
+                <h2 class="form-title">Tạo mới danh mục</h2>
+                <hr style="width: 90%;margin: 0 auto;">
+                <div class="row-control">
+                    <label for="">Mã danh mục</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="row-control">
+                    <label for="">Tên danh mục</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="row-control">
+                    <input type="submit" value="Cập nhật" style="float:right;height:36px;width:120px">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="Content/JS/modal.js"></script>
+    <script src="Content/JS/modify-action.js"></script>
 </body>
 </html>
